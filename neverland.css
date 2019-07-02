@@ -1,0 +1,356 @@
+@font-face {
+    font-family: mojPrviFont;
+    src: url("fontovi/SCRIPTBL.TTF");
+}
+
+@font-face {
+    src: url("fontovi/segoeuisl.ttf");
+    font-family: mojDrugiFont;
+}
+
+@font-face {
+    src: url("fontovi/segoeui.ttf");
+    font-family: mojTreciFont;
+}
+
+@font-face {
+    src: url("fontovi/seguisb.ttf");
+    font-family: mojCetvrtiFont;
+}
+
+body,
+html {
+    margin: 0%;
+    height: 100%;
+    font-family: mojDrugiFont;
+    box-sizing: border-box;
+}
+
+#omotac {
+    height: 100%;
+    width: 80%;
+}
+
+#never {
+    background-image: url("slike/cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: mojPrviFont;
+    color: white;
+    position: relative;
+    align-content: center;
+    border-bottom: dashed 15px #377487;
+    text-align: center;
+}
+
+#papagaj {
+    background-image: url("slike/ocean.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-top: #377487 dashed 15px;
+    color: white;
+}
+
+#arhipelag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1% 10%;
+}
+
+#zivotinje {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    position: relative;
+    font-family: mojTreciFont;
+    z-index: 2;
+    position: relative;
+}
+
+#tekst {
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-content: center;
+    transform: translate(-50%, -40%);
+    padding: 10%;
+    text-shadow: -2px 15px 15px grey;
+}
+
+#tekst h1 {
+    text-shadow: 0px 0px 5px 2px black;
+}
+
+.otkrij {
+    box-sizing: border-box;
+    display: inline;
+    font-size: x-large;
+    background-color: #fb1919;
+    padding: 5px 25px;
+    color: white;
+    font-family: mojPrviFont;
+}
+
+#otkrij {
+    position: relative;
+    left: 55%;
+}
+
+.ziv {
+    font-family: mojPrviFont;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    width: 25%;
+    text-align: center;
+}
+
+.zivpar {
+    font-family: mojTreciFont;
+    font-size: large;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 40%;
+    height: 50%;
+    font-family: mojTreciFont;
+}
+
+ul li {
+    font-family: mojTreciFont;
+    color: white;
+    display: inline-block;
+    padding: 1%;
+}
+
+div ul :hover {
+    color: rgb(221, 185, 86);
+}
+
+ul :nth-child(5) {
+    color: yellow;
+}
+
+h6 {
+    position: relative;
+    top: -100px;
+}
+
+img {
+    width: 90%;
+    margin: 5%;
+}
+
+.natpis {
+    position: relative;
+    left: 6%;
+    color: white;
+    font-size: 3rem;
+}
+
+#izleti {
+    background-image: url("slike/sightseeing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250%;
+    background-position: center;
+    border-top: whitesmoke dashed 15px;
+    border-bottom: whitesmoke 15px dashed;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: mojTreciFont;
+    padding: 10%;
+}
+
+#obala {
+    font-family: mojPrviFont;
+    color: black;
+}
+
+.krug {
+    box-sizing: border-box;
+    background-color: #c4e574;
+    border: solid white 5px;
+    border-radius: 50%;
+    width: 30%;
+    height: 85%;
+    padding: 5%;
+}
+
+#ikonice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ol {
+    font-family: mojPrviFont;
+}
+
+#levi {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: right;
+    font-family: mojTreciFont;
+    padding: 0% 10%;
+}
+
+.levi {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    font-family: mojTreciFont;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 40%;
+    height: 40%;
+    font-family: mojTreciFont;
+}
+
+#izletitekst {}
+
+#desni {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.slike {
+    background-color: white;
+    color: black;
+    transform: rotate(10deg);
+}
+
+.slpar {
+    text-align: justify;
+    font-family: mojTreciFont;
+    padding: 0% 5% 5% 5%;
+}
+
+#ponuda {
+    background-image: url("slike/accomodation.jpg");
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    border-bottom: dashed 15px #377487;
+}
+
+#transparentni {
+    background-color: #2399a4;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+#tabela {
+    position: absolute;
+    left: 8%;
+    top: 551%;
+}
+
+.zvezde {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table {
+    background-color: white;
+    color: #000000;
+    border-spacing: 0%;
+    border-collapse: collapse;
+    align-content: center;
+}
+
+table tr td,
+th {
+    width: 33%;
+    text-align: center;
+    padding: 0% 5%;
+}
+
+.zvezde img {
+    width: 15%;
+    height: 15%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+caption {
+    margin: 5%;
+    color: white;
+}
+
+#linija {
+    border-top: solid 5px lightskyblue;
+    position: relative;
+    top: 14%;
+    left: 10%;
+    width: 80%;
+}
+
+#onama {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #d78a11;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    position: relative;
+    top: -13%;
+}
+
+form {
+    padding: 5%;
+}
+
+#dugform {
+    background-color: #d78a11;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 1%;
+    position: relative;
+    left: 5%;
+    top: -10%;
+}
+
+#suncani {
+    font-family: mojPrviFont;
+    font-size: x-large;
+    text-align: right;
+}
+
+.desni {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+}
