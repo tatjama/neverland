@@ -28,23 +28,21 @@ html {
     font-family: mojDrugiFont;
     box-sizing: border-box;
 }
-
 #omotac {
     height: 100%;
     width: 80%;
 }
-
 #never {
     background-image: url("slike/cover.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 620px;
+    height: 600px;
+    padding-bottom: 10px;
     font-family: mojPrviFont;
     color: white;
     position: relative;
-    align-content: center;
-    border-bottom: dashed 15px #377487;
+    align-content: center;   
     text-align: center;
 }
 #tekst {
@@ -53,11 +51,9 @@ html {
     top: 50%;
     left: 50%;
     align-content: center;
-    transform: translate(-50%, -60%);
-    
+    transform: translate(-50%, -60%);    
     text-shadow: -2px 15px 15px grey;
 }
-
 #tekst h1 {
     text-shadow: 0px 0px 5px 2px black;
 }
@@ -65,23 +61,49 @@ h6 {
     position: relative;
     top: -25px;
 }
-
+#tekst button{
+    position: relative;
+    top: 50px;
+}
+#arhipelag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1% 10%;
+    border-top: dashed 15px #377487;
+    border-bottom: dashed 15px #377487;
+}
+.tekst {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 40%;
+    height: 40%;
+    font-family: mojTreciFont;
+}
+.otkrij {
+    box-sizing: border-box;    
+    font-size: x-large;
+    background-color: #fb1919;
+    padding: 5px 25px;
+    color: white;
+    font-family: mojPrviFont;    
+}
+.tekst button{
+    width: 50%;
+}
+h2{
+    margin: 20px 0px;
+}
 
 #papagaj {
     background-image: url("slike/ocean.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
-    border-top: #377487 dashed 15px;
+    height: 100%;    
     color: white;
-}
-
-#arhipelag {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1% 10%;
 }
 
 #zivotinje {
@@ -99,20 +121,9 @@ h6 {
 
 
 
-.otkrij {
-    box-sizing: border-box;
-    display: inline;
-    font-size: x-large;
-    background-color: #fb1919;
-    padding: 5px 25px;
-    color: white;
-    font-family: mojPrviFont;
-}
 
-#otkrij {
-    position: relative;
-    left: 55%;
-}
+
+
 
 .ziv {
     font-family: mojPrviFont;
@@ -128,14 +139,7 @@ h6 {
     font-size: large;
 }
 
-.tekst {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 40%;
-    height: 50%;
-    font-family: mojTreciFont;
-}
+
 
 ul li {
     font-family: mojTreciFont;
@@ -225,14 +229,7 @@ ol {
     font-family: mojTreciFont;
 }
 
-.tekst {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 40%;
-    height: 40%;
-    font-family: mojTreciFont;
-}
+
 
 #izletitekst {}
 
